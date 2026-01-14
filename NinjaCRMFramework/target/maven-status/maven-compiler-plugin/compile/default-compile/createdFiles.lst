@@ -1,0 +1,14 @@
+com\ninza\crm\generic\fileutility\JsonUtility.class
+com\ninza\crm\generic\objectrepository\HomePage.class
+com\ninza\crm\generic\objectrepository\CreateCampaignPage.class
+com\ninza\crm\BaseclassUtility\BaseClass.class
+com\ninza\crm\listener\ListenersImplementation.class
+com\ninza\crm\generic\objectrepository\LoginPage.class
+com\ninza\crm\generic\fileutility\ExcelUtility.class
+com\ninza\crm\generic\objectrepository\CampaignsPage.class
+com\ninza\crm\generic\objectrepository\ProductsPage.class
+com\ninja\crm\database\DbUtility.class
+com\ninza\crm\generic\javautility\JavaUtility.class
+com\ninza\crm\generic\objectrepository\CreateProductPage.class
+com\ninza\crm\generic\fileutility\PropertiesUtility.class
+com\ninza\crm\generic\webdriverutility\WebdriverUtility.class

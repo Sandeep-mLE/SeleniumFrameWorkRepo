@@ -6,8 +6,8 @@
       <class name="com.ninza.crm.products.AddProductTest">
         <methods>
           <include name="addProductWithMandatoryFieldsTest"/>
-          <include name="configBS"/>
           <include name="configBC"/>
+          <include name="configBS"/>
           <include name="configAC"/>
           <include name="configBT"/>
           <include name="configAS"/>
@@ -16,6 +16,21 @@
           <include name="configAM"/>
         </methods>
       </class> <!-- com.ninza.crm.products.AddProductTest -->
+      <class name="com.ninza.crm.campaigns.CreateCampaignsTest">
+        <methods>
+          <include name="createCampaignsWithMandatoryFieldsTest"/>
+          <include name="createCampaignsWithStatusTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configBT"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configAT"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createCampaignsWithExpectedDateTest"/>
+        </methods>
+      </class> <!-- com.ninza.crm.campaigns.CreateCampaignsTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
