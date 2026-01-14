@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="3" skipped="1">
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Established the DB connectivity]]>
@@ -17,13 +17,19 @@
       <![CDATA[Successfully log in]]>
     </line>
     <line>
+      <![CDATA[Successfully launched browser]]>
+    </line>
+    <line>
       <![CDATA[Navigate to NijaCRM]]>
     </line>
     <line>
       <![CDATA[Successfully log in]]>
     </line>
     <line>
-      <![CDATA[Successfully launched browser]]>
+      <![CDATA[Navigate to NijaCRM]]>
+    </line>
+    <line>
+      <![CDATA[Successfully log in]]>
     </line>
     <line>
       <![CDATA[Navigate to NijaCRM]]>
@@ -38,27 +44,41 @@
       <![CDATA[Closed the DB connectivity]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-01-14T12:52:25 IST" name="Surefire suite" finished-at="2026-01-14T12:54:23 IST" duration-ms="117090">
+  <suite started-at="2026-01-14T14:22:38 IST" name="Suite" finished-at="2026-01-14T14:25:17 IST" duration-ms="158648">
     <groups>
       <group name="regressionTest">
-        <method signature="CreateCampaignsTest.createCampaignsWithStatusTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" name="createCampaignsWithStatusTest" class="com.ninza.crm.campaigns.CreateCampaignsTest"/>
+        <method signature="CreateCampaignsTest.createCampaignsWithStatusTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" name="createCampaignsWithStatusTest" class="com.ninza.crm.campaigns.CreateCampaignsTest"/>
       </group> <!-- regressionTest -->
       <group name="smokeTest">
-        <method signature="CreateCampaignsTest.createCampaignsWithExpectedDateTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" name="createCampaignsWithExpectedDateTest" class="com.ninza.crm.campaigns.CreateCampaignsTest"/>
-        <method signature="CreateCampaignsTest.createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" name="createCampaignsWithMandatoryFieldsTest" class="com.ninza.crm.campaigns.CreateCampaignsTest"/>
-        <method signature="AddProductTest.addProductWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.products.AddProductTest@bef2d72]" name="addProductWithMandatoryFieldsTest" class="com.ninza.crm.products.AddProductTest"/>
+        <method signature="CreateCampaignsTest.createCampaignsWithExpectedDateTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" name="createCampaignsWithExpectedDateTest" class="com.ninza.crm.campaigns.CreateCampaignsTest"/>
+        <method signature="CreateCampaignsTest.createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" name="createCampaignsWithMandatoryFieldsTest" class="com.ninza.crm.campaigns.CreateCampaignsTest"/>
+        <method signature="AddProductTest.addProductWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" name="addProductWithMandatoryFieldsTest" class="com.ninza.crm.products.AddProductTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2026-01-14T12:52:25 IST" name="Surefire test" finished-at="2026-01-14T12:54:23 IST" duration-ms="117090">
+    <test started-at="2026-01-14T14:22:38 IST" name="Test" finished-at="2026-01-14T14:25:17 IST" duration-ms="158648">
       <class name="com.ninza.crm.products.AddProductTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninza.crm.products.AddProductTest@bef2d72]" started-at="2026-01-14T12:53:55 IST" name="configBC" finished-at="2026-01-14T12:53:56 IST" duration-ms="1061" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:22:38 IST" name="configBS" finished-at="2026-01-14T14:22:38 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Established the DB connectivity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:22:38 IST" name="configBT" finished-at="2026-01-14T14:22:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pre-Condition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:22:38 IST" name="configBC" finished-at="2026-01-14T14:22:40 IST" duration-ms="1675" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully launched browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.products.AddProductTest@bef2d72]" started-at="2026-01-14T12:53:56 IST" name="configBM" finished-at="2026-01-14T12:53:57 IST" duration-ms="1186" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:22:40 IST" name="configBM" finished-at="2026-01-14T14:22:41 IST" duration-ms="1060" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate to NijaCRM]]>
@@ -68,7 +88,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="addProductWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.products.AddProductTest@bef2d72]" started-at="2026-01-14T12:53:57 IST" name="addProductWithMandatoryFieldsTest" finished-at="2026-01-14T12:54:21 IST" duration-ms="23622" status="FAIL">
+        <test-method signature="addProductWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:22:41 IST" name="addProductWithMandatoryFieldsTest" finished-at="2026-01-14T14:23:05 IST" duration-ms="24072" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with text: Vendor_54513 - (Electronics)
@@ -111,10 +131,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -125,38 +144,38 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductWithMandatoryFieldsTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.products.AddProductTest@bef2d72]" started-at="2026-01-14T12:54:21 IST" name="configAM" finished-at="2026-01-14T12:54:22 IST" duration-ms="1252" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:23:05 IST" name="configAM" finished-at="2026-01-14T14:23:06 IST" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninza.crm.products.AddProductTest@bef2d72]" started-at="2026-01-14T12:54:22 IST" name="configAC" finished-at="2026-01-14T12:54:23 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:23:06 IST" name="configAC" finished-at="2026-01-14T14:23:06 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:25:17 IST" name="configAT" finished-at="2026-01-14T14:25:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Post Condition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninza.crm.products.AddProductTest@1fa268de]" started-at="2026-01-14T14:25:17 IST" name="configAS" finished-at="2026-01-14T14:25:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the DB connectivity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAS -->
       </class> <!-- com.ninza.crm.products.AddProductTest -->
       <class name="com.ninza.crm.campaigns.CreateCampaignsTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:52:25 IST" name="configBS" finished-at="2026-01-14T12:52:25 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Established the DB connectivity]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBT()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:52:26 IST" name="configBT" finished-at="2026-01-14T12:52:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Pre-Condition]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- configBT -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:52:26 IST" name="configBC" finished-at="2026-01-14T12:52:27 IST" duration-ms="1240" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:23:06 IST" name="configBC" finished-at="2026-01-14T14:23:07 IST" duration-ms="900" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully launched browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:52:27 IST" name="configBM" finished-at="2026-01-14T12:52:28 IST" duration-ms="1354" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:23:07 IST" name="configBM" finished-at="2026-01-14T14:23:08 IST" duration-ms="932" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate to NijaCRM]]>
@@ -166,7 +185,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createCampaignsWithExpectedDateTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:52:28 IST" name="createCampaignsWithExpectedDateTest" finished-at="2026-01-14T12:53:10 IST" duration-ms="41833" status="FAIL">
+        <test-method signature="createCampaignsWithExpectedDateTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:23:08 IST" name="createCampaignsWithExpectedDateTest" finished-at="2026-01-14T14:23:49 IST" duration-ms="41197" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Successfully Added')]' (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -202,10 +221,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -216,9 +234,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f3d3a24e4134a7648769771fa4d779ae, findElement {value=//div[contains(text(),'Successfully Added')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49781}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49781/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f3d3a24e4134a7648769771fa4d779ae
+Command: [fe22d08d2d76f20adf48ddcbb8b77252, findElement {using=xpath, value=//div[contains(text(),'Successfully Added')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53742}, goog:processID: 2736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe22d08d2d76f20adf48ddcbb8b77252
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -242,18 +260,18 @@ at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedCo
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 35 more
+... 34 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignsWithExpectedDateTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:10 IST" name="configAM" finished-at="2026-01-14T12:53:11 IST" duration-ms="1123" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:23:49 IST" name="configAM" finished-at="2026-01-14T14:23:50 IST" duration-ms="862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:11 IST" name="configBM" finished-at="2026-01-14T12:53:12 IST" duration-ms="976" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:23:50 IST" name="configBM" finished-at="2026-01-14T14:23:52 IST" duration-ms="1289" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate to NijaCRM]]>
@@ -263,7 +281,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:12 IST" name="createCampaignsWithMandatoryFieldsTest" finished-at="2026-01-14T12:53:53 IST" duration-ms="41090" status="FAIL">
+        <test-method signature="createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:23:52 IST" name="createCampaignsWithMandatoryFieldsTest" finished-at="2026-01-14T14:24:33 IST" duration-ms="41033" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Successfully Added')]' (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -299,10 +317,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -313,9 +330,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f3d3a24e4134a7648769771fa4d779ae, findElement {value=//div[contains(text(),'Successfully Added')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49781}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49781/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f3d3a24e4134a7648769771fa4d779ae
+Command: [fe22d08d2d76f20adf48ddcbb8b77252, findElement {using=xpath, value=//div[contains(text(),'Successfully Added')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53742}, goog:processID: 2736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe22d08d2d76f20adf48ddcbb8b77252
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -339,160 +356,44 @@ at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedCo
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 35 more
+... 34 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignsWithMandatoryFieldsTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:54 IST" name="configAM" finished-at="2026-01-14T12:53:55 IST" duration-ms="1270" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="font-size: 22px; padding: 0px;">...</svg> is not clickable at point (1190, 35). Other element would receive the click: <div class="Toastify__toast Toastify__toast--error" style="">...</div>
-  (Session info: chrome=143.0.7499.193)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f3d3a24e4134a7648769771fa4d779ae, clickElement {id=f.299F2224A7949D70DE9571FBA8422B73.d.8DB558EE28EA0194997AD69D318A8E16.e.185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49781}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49781/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f3d3a24e4134a7648769771fa4d779ae)] -> xpath: //*[@data-icon='user']]
-Session ID: f3d3a24e4134a7648769771fa4d779ae]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="font-size: 22px; padding: 0px;">...</svg> is not clickable at point (1190, 35). Other element would receive the click: <div class="Toastify__toast Toastify__toast--error" style="">...</div>
-  (Session info: chrome=143.0.7499.193)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f3d3a24e4134a7648769771fa4d779ae, clickElement {id=f.299F2224A7949D70DE9571FBA8422B73.d.8DB558EE28EA0194997AD69D318A8E16.e.185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49781}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49781/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f3d3a24e4134a7648769771fa4d779ae)] -> xpath: //*[@data-icon='user']]
-Session ID: f3d3a24e4134a7648769771fa4d779ae
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at com.ninza.crm.BaseclassUtility.BaseClass.configAM(BaseClass.java:105)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:24:33 IST" name="configAM" finished-at="2026-01-14T14:24:34 IST" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:55 IST" name="configBM" finished-at="2026-01-14T12:53:55 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:24:34 IST" name="configBM" finished-at="2026-01-14T14:24:35 IST" duration-ms="1195" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Navigate to NijaCRM]]>
+            </line>
+            <line>
+              <![CDATA[Successfully log in]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createCampaignsWithStatusTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:55 IST" name="createCampaignsWithStatusTest" finished-at="2026-01-14T12:53:55 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="createCampaignsWithStatusTest()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:24:35 IST" name="createCampaignsWithStatusTest" finished-at="2026-01-14T14:25:16 IST" duration-ms="40999" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[element click intercepted: Element <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="font-size: 22px; padding: 0px;">...</svg> is not clickable at point (1190, 35). Other element would receive the click: <div class="Toastify__toast Toastify__toast--error" style="">...</div>
-  (Session info: chrome=143.0.7499.193)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f3d3a24e4134a7648769771fa4d779ae, clickElement {id=f.299F2224A7949D70DE9571FBA8422B73.d.8DB558EE28EA0194997AD69D318A8E16.e.185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49781}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49781/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f3d3a24e4134a7648769771fa4d779ae)] -> xpath: //*[@data-icon='user']]
-Session ID: f3d3a24e4134a7648769771fa4d779ae]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Successfully Added')]' (tried for 20 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="font-size: 22px; padding: 0px;">...</svg> is not clickable at point (1190, 35). Other element would receive the click: <div class="Toastify__toast Toastify__toast--error" style="">...</div>
-  (Session info: chrome=143.0.7499.193)
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f3d3a24e4134a7648769771fa4d779ae, clickElement {id=f.299F2224A7949D70DE9571FBA8422B73.d.8DB558EE28EA0194997AD69D318A8E16.e.185}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49781}, goog:processID: 11332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49781/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f3d3a24e4134a7648769771fa4d779ae)] -> xpath: //*[@data-icon='user']]
-Session ID: f3d3a24e4134a7648769771fa4d779ae
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at com.ninza.crm.BaseclassUtility.BaseClass.configAM(BaseClass.java:105)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Successfully Added')]' (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.ninza.crm.generic.webdriverutility.WebdriverUtility.waitForElementToBeVisible(WebdriverUtility.java:22)
+at com.ninza.crm.campaigns.CreateCampaignsTest.createCampaignsWithStatusTest(CreateCampaignsTest.java:73)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
@@ -512,43 +413,61 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Successfully Added')]"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe22d08d2d76f20adf48ddcbb8b77252, findElement {using=xpath, value=//div[contains(text(),'Successfully Added')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53742}, goog:processID: 2736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53742/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe22d08d2d76f20adf48ddcbb8b77252
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 34 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignsWithStatusTest -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:55 IST" name="configAC" finished-at="2026-01-14T12:53:55 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:53:55 IST" name="configAM" finished-at="2026-01-14T12:53:55 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:25:16 IST" name="configAM" finished-at="2026-01-14T14:25:17 IST" duration-ms="734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAT()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:54:23 IST" name="configAT" finished-at="2026-01-14T12:54:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@4fb61f4a]" started-at="2026-01-14T14:25:17 IST" name="configAC" finished-at="2026-01-14T14:25:17 IST" duration-ms="251" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Post Condition]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- configAT -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninza.crm.campaigns.CreateCampaignsTest@1c93084c]" started-at="2026-01-14T12:54:23 IST" name="configAS" finished-at="2026-01-14T12:54:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Closed the DB connectivity]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- configAS -->
+        </test-method> <!-- configAC -->
       </class> <!-- com.ninza.crm.campaigns.CreateCampaignsTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
