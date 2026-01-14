@@ -5,7 +5,24 @@
 	<groupId>NinjaCRM</groupId>
 	<artifactId>NinjaCRMFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.5</version><!-- Use latest stable -->
+            <configuration>
+    <suiteXmlFiles>
+        <suiteXmlFile>ParallalExecutiontestng.xml</suiteXmlFile>
+    </suiteXmlFiles>
+</configuration>
+
+        </plugin>
+    </plugins>
+</build>
 	<dependencies>
+	
+
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
